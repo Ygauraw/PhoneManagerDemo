@@ -1,29 +1,22 @@
 package com.example.testtelephoemanager;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.io.StringReader;
 
-import android.R.anim;
-import android.R.integer;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Context;
 import android.os.Bundle;
-import android.os.Handler;
-import android.renderscript.ProgramFragmentFixedFunction.Builder.Format;
 import android.telephony.TelephonyManager;
 import android.text.format.Formatter;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Menu;
 import android.view.WindowManager;
-import android.view.inputmethod.InputBinding;
 import android.widget.TextView;
 
 public class TestTelephonemanager extends Activity {
